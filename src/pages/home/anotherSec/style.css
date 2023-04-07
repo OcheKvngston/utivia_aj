@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.fold{
+    width: 100%;
+    height: 550px;
+}
+.file1{
+    padding-top: 30px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: 600;
+    color: blue;
+}
+.card_holder{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.Case1{
+    width: 600px;
+    height: 320px;
+    background-color: white;
+    margin-left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.case2{
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: green;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+.case3{
+    margin-left: 20px; 
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.case4{
+    margin-left: 20px; 
+    margin-top: 25px;
+    font-size: 18px;
+}
+.case5{
+    margin-left: 20px; 
+    margin-top: 30px;
+    font-size: 18px;
+    color: blue;
+}
