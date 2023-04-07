@@ -1,0 +1,16 @@
+.button{
+    background-color: #fbaf1b;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+}
+.button.primary{
+    background-color: white;
+    color:black;
+}
+.button.true{
+    border: 1px solid blue;
+}

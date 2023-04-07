@@ -37,8 +37,9 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    gap: 1rem;
 }
-.btn1 button{
+/* .btn1 button{
     width: 100px;
     height: 40px;
     background-color: #FBAF1B;
@@ -53,4 +54,53 @@
     color: blue;
     border: 1px solid blue;
     border-radius: 10px;
+} */
+.holder4{
+    height: 100%;
+    width: 50px;
+    display: none;
+    cursor: pointer;
+}
+.holder5{
+    height: 100%;
+    width: 50px;
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px){
+    .holder4{
+        display: none;
+    }
+    .holder5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .holder2{
+        display: none;
+    }
+    .holder3{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 600px){
+    .holder4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 50px;
+        cursor: pointer;
+    }
+    .holder5{
+        display: none;
+    }
+    .holder3{
+        display: none;
+    }
+
 }
