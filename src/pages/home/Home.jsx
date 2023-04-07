@@ -1,9 +1,19 @@
 import React from 'react'
-import classes from "./style.module.css"
+import Header from "../home/headerCon/Header"
+import AnotherSec from './anotherSec/AnotherSec'
+import CardCon from './cardCon/CardCon'
+import Hero from './heroCon/Hero'
+import NewSection from './newSection/NewSection'
 
 const Home = () => {
   return (
-    <div className={classes.Holder}>Home</div>
+    <>
+      <Header/>
+      <Hero/>
+      <NewSection/>
+      <AnotherSec/>
+      <CardCon/>
+    </>
   )
 }
 
