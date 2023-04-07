@@ -9,6 +9,7 @@ import Pic5 from "./Home-header.jpg"
 import Pic6 from "./Home-header.jpg"
 import Pic7 from "./Home-header.jpg"
 import Pic8 from "./Home-header.jpg"
+import NextSec from '../nextSec/NextSec'
 
 const CardCon = () => {
     const Data = [
@@ -76,6 +77,8 @@ const CardCon = () => {
                 ))
             }
         </div>
+        <br/><br/><br/>
+        <NextSec/>
     </div>
   )
 }
