@@ -11,6 +11,16 @@
     background-color: white;
     color:black;
 }
+.button.primary2{
+    background-color: white;
+    color:blue;
+}
 .button.true{
     border: 1px solid blue;
+}
+.button.false{
+    border: 1px solid #fbaf1b;
+}
+.button.box{
+    box-shadow: rgba(214, 118, 9, 0.418) 0px 7px 29px 0px;
 }

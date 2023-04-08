@@ -68,7 +68,7 @@
     background-image: url(./overlay-gradient.ae704b9f.svg);
     background-size: cover;
 }
-.btn3 button{
+/* .btn3 button{
     width: 170px;
     height: 55px;
     background-color: #FBAF1B;
@@ -77,8 +77,8 @@
     color: white;
     cursor: pointer;
     font-size: 16px;
-}
-.btn4 button{
+} */
+/* .btn4 button{
     width: 170px;
     height: 55px;
     background-color: white;
@@ -87,7 +87,7 @@
     color: blue;
     cursor: pointer;
     font-size: 16px;
-}
+} */
 .btn_holder{
     width: 380px;
     height: 90px;
