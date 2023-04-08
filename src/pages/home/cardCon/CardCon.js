@@ -77,7 +77,7 @@ const CardCon = () => {
                 ))
             }
         </div>
-        <br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/>
         <NextSec/>
     </div>
   )
