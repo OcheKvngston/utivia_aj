@@ -3,6 +3,7 @@ import classes from "./style.module.css"
 import pics from "./Capture.PNG"
 import image from "./individual.9cb1e737.webp"
 import { BsArrowRight } from 'react-icons/bs';
+import LearnPage from '../learnPage/LearnPage';
 const NextSec = () => {
   return (
     <div className={classes.holder}>
@@ -47,6 +48,7 @@ const NextSec = () => {
           </div>
         </div>
       </div>
+      <LearnPage/>
     </div>
   )
 }
