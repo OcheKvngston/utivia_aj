@@ -1,0 +1,55 @@
+.caseHolder{
+    width: 100%;
+    height: 750px;
+}
+.con1{
+    width: 100%;
+    height: 450px;
+}
+.con1 h1{
+    width: 700px;
+    font-size: 70px;
+    background-image: linear-gradient(to right,#0A3D6D,#61A544);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+.con1 h1 span{
+    background-image: linear-gradient(to right,#0A3D6D,#61A544,#F9B01E);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.con1 p{
+    width: 550px;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.con1 h3{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: blue;
+}
+.con2{
+    width: 100%;
+    height: 300px;
+}
+.card{
+    width: 90%;
+    height: 100%;
+    margin-left: 50px;
+    display:flex ;
+    align-items: center;
+}
+.box1{
+    width: 25%;
+    height: 95%;
+    background-color: white;
+}
+.box1 img{
+    width: 100%;
+    height: 100%;
+}
